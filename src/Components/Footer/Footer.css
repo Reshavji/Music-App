@@ -1,0 +1,13 @@
+.footer{
+    height: 250px;
+    width: 100%;
+    background-color: #323232;
+    display: flex;
+    flex-direction: column;
+    color: #dee6ef;
+}
+.footer-ul{
+    display: flex;
+    font-size: 0.8rem;
+    width: 75% ;
+}

@@ -1,0 +1,25 @@
+/* CustomAudioPlayer.css */
+
+/* Style for the container of the custom audio player */
+.custom-audio-player {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Style for the progress bar */
+  .progress-bar {
+    width: 100%;
+    height: 5px;
+    background-color: #ddd;
+    cursor: pointer;
+    margin-top: 8px;
+  }
+  
+  /* Style for the progress bar fill */
+  .progress {
+    height: 100%;
+    background-color: #007bff;
+    transition: width 0.1s linear;
+  }
+  

@@ -1,0 +1,14 @@
+/* Home.css */
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden; /* Hide overflow to prevent horizontal scrollbar */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .home {
+      flex-direction: row; /* Change to row layout on smaller screens */
+    }
+  }
+  
